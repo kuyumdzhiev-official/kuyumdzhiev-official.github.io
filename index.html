@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 В Клас — СПГИ „Д-р Петър Аладжов"</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Favicon SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230ea5e9'/><text y='.9em' font-size='65' x='10'>📊</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Нагоре">↑</button>
+ 
+  <!-- НАВИГАЦИЯ -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">11 <em>В</em></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">За нас</a></li>
+      <li><a href="#subjects">Предмети</a></li>
+      <li><a href="#students">Ученици</a></li>
+      <li><a href="#gallery">Галерия</a></li>
+      <li><a href="#schedule">Разписание</a></li>
+      <li><a href="#contact">Контакти</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+ 
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="badge-dot"></span>
+        Учебна година 2025 / 2026
+      </div>
+      <h1 class="fade-in delay-1">
+        <span class="h1-small">Добре дошли в</span>
+        <span class="h1-big">11 <em>В</em> Клас</span>
+      </h1>
+      <p class="hero-sub fade-in delay-2">
+        Специалност <strong>Икономическа информатика</strong><br>
+        СПГИ „Д-р Петър Аладжов" · Велико Търново
+      </p>
+      <div class="hero-stats fade-in delay-3">
+        <div class="hs-item">
+          <span class="hs-num" data-count="26">0</span>
+          <span class="hs-lbl">ученика</span>
+        </div>
+        <div class="hs-divider"></div>
+        <div class="hs-item">
+          <span class="hs-num" data-count="14">0</span>
+          <span class="hs-lbl">предмета</span>
+        </div>
+        <div class="hs-divider"></div>
+        <div class="hs-item">
+          <span class="hs-num" data-count="3">0</span>
+          <span class="hs-lbl">години заедно</span>
+        </div>
+      </div>
+      <div class="hero-ctas fade-in delay-4">
+        <a href="#about" class="btn-primary">Открий повече <span>↓</span></a>
+        <a href="#students" class="btn-ghost">Нашите ученици</a>
+      </div>
+    </div>
+    <div class="hero-tags fade-in delay-3">
+      <span class="htag">💻 Икономическа информатика</span>
+      <span class="htag">📈 Счетоводство</span>
+      <span class="htag">🌐 Уеб дизайн</span>
+      <span class="htag">⌨️ Програмиране</span>
+    </div>
+  </header>
+ 
+  <!-- ЗА НАС -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title reveal">За нас</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Ние сме <strong>11 В клас</strong> от
+            <strong>Старопрестолна професионална гимназия по икономика „Д-р Петър Аладжов"</strong>,
+            гр. Велико Търново.
+          </p>
+          <p>
+            Специализираме в <strong>Икономическа информатика</strong> и сме
+            колектив от <strong>26 ученици</strong>, обединени от любовта
+            към технологиите, икономиката и програмирането.
+          </p>
+          <p>
+            Класен ръководител: <strong>г-жа Цветомила П. Георгиева</strong>
+          </p>
+          <p>
+            Горди сме с нашите умения в <strong>уеб дизайн, програмиране и икономическа информатика</strong> —
+            предметите, с които градим бъдещето си в дигиталната икономика и бизнес среда.
+          </p>
+        </div>
+        <div class="about-stats reveal delay-1">
+          <div class="stat-box">
+            <span class="stat-num">26</span>
+            <span class="stat-lbl">Ученика</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">14</span>
+            <span class="stat-lbl">Предмета</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num">4</span>
+            <span class="stat-lbl">Години заедно</span>
+          </div>
+          <div class="stat-box stat-wide">
+            <span class="stat-num">∞</span>
+            <span class="stat-lbl">Амбиции</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ПРЕДМЕТИ -->
+  <section id="subjects">
+    <div class="container">
+      <h2 class="section-title reveal">Учебни предмети</h2>
+      <div class="cards-grid">
+ 
+        <div class="subject-card reveal">
+          <div class="card-icon">💻</div>
+          <h3>Икономическа информатика</h3>
+          <p>г-жа Петя С. Иванова</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-1">
+          <div class="card-icon">🌐</div>
+          <h3>Уеб дизайн</h3>
+          <p>г-жа Мариета Х. Христова</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-2">
+          <div class="card-icon">⌨️</div>
+          <h3>Програмиране</h3>
+          <p>г-жа Мариета Х. Христова</p>
+        </div>
+ 
+        <div class="subject-card reveal">
+          <div class="card-icon">📒</div>
+          <h3>Счетоводство на предприятието</h3>
+          <p>г-жа Галина Д. Христова</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-1">
+          <div class="card-icon">📈</div>
+          <h3>Икономика на предприятието</h3>
+          <p>г-жа Теодора Д. Митева</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-2">
+          <div class="card-icon">📊</div>
+          <h3>Обща икономическа теория</h3>
+          <p>г-жа Биляна Р. Николова</p>
+        </div>
+ 
+        <div class="subject-card reveal">
+          <div class="card-icon">📉</div>
+          <h3>Статистика</h3>
+          <p>г-жа Теодора Д. Митева</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-1">
+          <div class="card-icon">⚖️</div>
+          <h3>Право</h3>
+          <p>г-жа Йорданка И. Калбанова</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-2">
+          <div class="card-icon">🔢</div>
+          <h3>Математика</h3>
+          <p>г-н Живко Х. Недялков</p>
+        </div>
+ 
+        <div class="subject-card reveal">
+          <div class="card-icon">📖</div>
+          <h3>БЕЛ</h3>
+          <p>г-н Филип И. Ангелов</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-1">
+          <div class="card-icon">🇩🇪</div>
+          <h3>Немски език</h3>
+          <p>г-н Димитър Г. Константинов</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-2">
+          <div class="card-icon">🖥️</div>
+          <h3>Компютърни архитектурни и ОС</h3>
+          <p>г-жа Анастасия Н. Лазарова</p>
+        </div>
+ 
+        <div class="subject-card reveal">
+          <div class="card-icon">🏃</div>
+          <h3>Физическо възпитание и спорт</h3>
+          <p>г-жа Цветомила П. Георгиева</p>
+        </div>
+ 
+        <div class="subject-card reveal delay-1">
+          <div class="card-icon">🌍</div>
+          <h3>Гражданско образование</h3>
+          <p>г-жа Диляна Д. Славчева</p>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- УЧЕНИЦИ -->
+  <section id="students">
+    <div class="container">
+      <h2 class="section-title reveal">Нашите ученици</h2>
+      <div class="students-grid">
+ 
+        <div class="student-card reveal"><div class="student-avatar">АС</div><div class="student-name">Александър Стефанов Стефанов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">АК</div><div class="student-name">Александър Трифонов Колев</div></div>
+        <div class="student-card reveal"><div class="student-avatar">АП</div><div class="student-name">Александър Бисеров Петров</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ВБ</div><div class="student-name">Валери Валериев Бобачев</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ГИ</div><div class="student-name">Георги Любомиров Иванов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ГИ</div><div class="student-name">Георги Красимиров Игнатов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ДД</div><div class="student-name">Деян Дончев Досев</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ЕМ</div><div class="student-name">Елица Мариянова Маринова</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ЗВ</div><div class="student-name">Захари Красимиров Владимиров</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ИГ</div><div class="student-name">Ивайло Анатолиев Григоров</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ИМ</div><div class="student-name">Иван Миленов Мешеков</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ИБ</div><div class="student-name">Иван Петков Баиров</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ИИ</div><div class="student-name">Ивелина Любомирова Илиева</div></div>
+        <div class="student-card reveal"><div class="student-avatar">КН</div><div class="student-name">Катерина Николаева Николова</div></div>
+        <div class="student-card reveal"><div class="student-avatar">КК</div><div class="student-name">Кристиян Павлинов Кръстев</div></div>
+        <div class="student-card reveal"><div class="student-avatar">МБ</div><div class="student-name">Мартина Христова Бабачева</div></div>
+        <div class="student-card reveal"><div class="student-avatar">МК</div><div class="student-name">Мехмед Ахмедов Куюмджиев</div></div>
+        <div class="student-card reveal"><div class="student-avatar">МС</div><div class="student-name">Михаил Мартинов Стоянов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">НЙ</div><div class="student-name">Никола Емилов Йорданов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">НА</div><div class="student-name">Никола Косев Аладжов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">РЙ</div><div class="student-name">Радослав Христофоров Йорданов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">РП</div><div class="student-name">Росен Росенов Панов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">СН</div><div class="student-name">Светослав Красимиров Николов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">СН</div><div class="student-name">Стефани Иванова Николова</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ХС</div><div class="student-name">Християн Станимиров Стоянов</div></div>
+        <div class="student-card reveal"><div class="student-avatar">ЦГ</div><div class="student-name">Цветозар Христов Гутев</div></div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ГАЛЕРИЯ -->
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title reveal">Галерия</h2>
+      <div class="gallery-grid">
+ 
+        <div class="gallery-item reveal">
+          <div class="gallery-ph">
+            <span class="ph-emoji">💻</span>
+            <span class="ph-label">Час по информатика</span>
+          </div>
+          <p class="img-caption">В кабинет 22 — Икономическа информатика</p>
+        </div>
+ 
+        <div class="gallery-item reveal delay-1">
+          <div class="gallery-ph">
+            <span class="ph-emoji">🌐</span>
+            <span class="ph-label">Уеб дизайн проект</span>
+          </div>
+          <p class="img-caption">Нашите проекти по Уеб дизайн</p>
+        </div>
+ 
+        <div class="gallery-item reveal delay-2">
+          <div class="gallery-ph">
+            <span class="ph-emoji">🏆</span>
+            <span class="ph-label">Постижения</span>
+          </div>
+          <p class="img-caption">Гордостта на 11 В</p>
+        </div>
+ 
+      </div>
+      <p class="gallery-note reveal">📸 Снимки ще бъдат добавени скоро</p>
+    </div>
+  </section>
+ 
+  <!-- РАЗПИСАНИЕ -->
+  <section id="schedule">
+    <div class="container">
+      <h2 class="section-title reveal">Седмично разписание</h2>
+      <p class="schedule-note reveal">Група 2 · Учебна година 2025/2026</p>
+      <div class="table-wrap reveal">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Час</th>
+              <th>Понеделник</th>
+              <th>Вторник</th>
+              <th>Сряда</th>
+              <th>Четвъртък</th>
+              <th>Петък</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="hour-cell">1-ви<br><small>08:00</small></td>
+              <td class="subj-bel">БЕЛ<br><small>Ангелов · ст.11</small></td>
+              <td class="subj-empty">—</td>
+              <td class="subj-it">Уч. практика: Работа в учеб.<br><small>Христова · каб.9</small></td>
+              <td class="subj-eco">Счетоводство<br><small>Христова · ст.15</small></td>
+              <td class="subj-it">Уч. практика: Комп. арх.<br><small>Лазарова · каб.10</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">2-ри<br><small>08:55</small></td>
+              <td class="subj-bel">БЕЛ<br><small>Ангелов · ст.11</small></td>
+              <td class="subj-eco">Обща ик. теория<br><small>Николова · ст.17</small></td>
+              <td class="subj-it">Уч. практика: Работа в учеб.<br><small>Христова · каб.9</small></td>
+              <td class="subj-other">ЧЕП<br><small>Станева · ст.20</small></td>
+              <td class="subj-it">Уч. практика: Комп. арх.<br><small>Лазарова · каб.10</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">3-ти<br><small>09:50</small></td>
+              <td class="subj-other">Право<br><small>Калбанова · ст.16</small></td>
+              <td class="subj-eco">Обща ик. теория<br><small>Николова · ст.17</small></td>
+              <td class="subj-it">Ик. информатика (РПП)<br><small>Иванова · каб.22</small></td>
+              <td class="subj-other">ЧК<br><small>Георгиева · ст.19</small></td>
+              <td class="subj-eco">Уч. практика: Счетоводство<br><small>Христова · ст.15</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">4-ти<br><small>10:45</small></td>
+              <td class="subj-mat">Математика<br><small>Недялков · ст.3</small></td>
+              <td class="subj-it">Уеб дизайн<br><small>Христова · каб.7</small></td>
+              <td class="subj-it">Ик. информатика (РПП)<br><small>Иванова · каб.22</small></td>
+              <td class="subj-it">Програмиране<br><small>Христова · каб.7</small></td>
+              <td class="subj-it">Ик. информатика (СПП)<br><small>Иванова · каб.22</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">5-ти<br><small>11:50</small></td>
+              <td class="subj-eco">Ик. на предприятието<br><small>Митева · ст.16</small></td>
+              <td class="subj-it">Уч. практика: Уеб дизайн<br><small>Христова · каб.7</small></td>
+              <td class="subj-eco">Статистика<br><small>Митева · ст.16</small></td>
+              <td class="subj-it">Програмиране<br><small>Христова · каб.7</small></td>
+              <td class="subj-it">Ик. информатика (СПП)<br><small>Иванова · каб.22</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">6-ти<br><small>12:45</small></td>
+              <td class="subj-sport">ФВС<br><small>Георгиева · Физк. салон</small></td>
+              <td class="subj-mat">Математика<br><small>Недялков · ст.3</small></td>
+              <td class="subj-other">ГО<br><small>Славчева · ст.4</small></td>
+              <td class="subj-other">ЧЕП<br><small>Станева · ст.20</small></td>
+              <td class="subj-other">Немски<br><small>Константинов · ст.13</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">7-ми<br><small>13:40</small></td>
+              <td class="subj-empty">—</td>
+              <td class="subj-it">Ик. информатика (СПП)<br><small>Иванова · каб.22</small></td>
+              <td class="subj-bel">БЕЛ<br><small>Ангелов · ст.11</small></td>
+              <td class="subj-sport">Волейбол<br><small>Георгиева · Физк. салон</small></td>
+              <td class="subj-other">Немски<br><small>Константинов · ст.13</small></td>
+            </tr>
+            <tr>
+              <td class="hour-cell">8-ми<br><small>14:30</small></td>
+              <td class="subj-empty">—</td>
+              <td class="subj-empty">—</td>
+              <td class="subj-sport">ФВС<br><small>Георгиева · Физк. салон</small></td>
+              <td class="subj-empty">—</td>
+              <td class="subj-empty">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="schedule-legend reveal">
+        <span class="leg-item"><span class="leg-dot leg-it"></span>Информатика / IT</span>
+        <span class="leg-item"><span class="leg-dot leg-eco"></span>Икономически</span>
+        <span class="leg-item"><span class="leg-dot leg-bel"></span>БЕЛ</span>
+        <span class="leg-item"><span class="leg-dot leg-mat"></span>Математика</span>
+        <span class="leg-item"><span class="leg-dot leg-sport"></span>Спорт</span>
+        <span class="leg-item"><span class="leg-dot leg-other"></span>Други</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- КОНТАКТИ -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Контакти</h2>
+      <div class="contact-grid">
+ 
+        <div class="contact-item reveal">
+          <span class="contact-icon">📧</span>
+          <div>
+            <strong>Имейл</strong>
+            <p>klas11v@spgiv.bg</p>
+          </div>
+        </div>
+ 
+        <div class="contact-item reveal delay-1">
+          <span class="contact-icon">📍</span>
+          <div>
+            <strong>Стая</strong>
+            <p>Стая № 19, Етаж 3</p>
+          </div>
+        </div>
+ 
+        <div class="contact-item reveal delay-2">
+          <span class="contact-icon">🏫</span>
+          <div>
+            <strong>Училище</strong>
+            <p>СПГИ „Д-р Петър Аладжов"<br>гр. Велико Търново</p>
+          </div>
+        </div>
+ 
+        <div class="contact-item reveal delay-3">
+          <span class="contact-icon">👩‍🏫</span>
+          <div>
+            <strong>Класен ръководител</strong>
+            <p>г-жа Цветомила П. Георгиева</p>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ФУТЪР -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">◈ 11 В Клас</div>
+      <p>© 2026 · 11 В Клас · СПГИ „Д-р Петър Аладжов" · Велико Търново</p>
+      <p class="footer-sub">Направено с много любов ❤️ от Мехмед Куюмджиев</p>
+    </div>
+  </footer>
+ 
+  <script>
+    // ── Hamburger menu ──────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+ 
+    // ── Back to top ─────────────────────────────────────────
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('visible', window.scrollY > 400);
+    });
+    btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+ 
+    // ── Scroll-reveal ────────────────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+ 
+    // ── Counter animation ────────────────────────────────────
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const el    = e.target;
+          const target = +el.dataset.count;
+          let current = 0;
+          const step  = Math.ceil(target / 30);
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) { current = target; clearInterval(timer); }
+            el.textContent = current;
+          }, 40);
+          counterObs.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.hs-num[data-count]').forEach(el => counterObs.observe(el));
+ 
+    // ── Active nav highlight ─────────────────────────────────
+    const sections = document.querySelectorAll('section[id], header[id]');
+    const navAs    = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      navAs.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>
